@@ -1,5 +1,3 @@
-# views.py
-
 from rest_framework import generics, permissions
 from .models import Question, Test, UserProgress
 from .serializers import QuestionSerializer, TestSerializer, UserProgressSerializer
